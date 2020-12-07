@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c034c5d0-991f-4565-ae16-1d8103f14813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ultralight/libs/AppCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralight/libs/Ultralight.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralight/libs/UltralightCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultralight/libs/WebCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/AppCore/CAPI.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/AppCore/CAPI.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSContextRef.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSContextRef.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSObjectRef.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSObjectRef.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSObjectRefPrivate.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSObjectRefPrivate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSRetainPtr.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSRetainPtr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSTypedArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSTypedArray.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSValueRef.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSValueRef.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/WebKitAvailability.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/WebKitAvailability.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Ultralight/CAPI.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Ultralight/CAPI.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/muon.go" beforeDir="false" afterPath="$PROJECT_DIR$/muon.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/muon_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/muon_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/cgo_helpers.c" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/cgo_helpers.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/cgo_helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/cgo_helpers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/cgo_helpers.h" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/cgo_helpers.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/const.go" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/const.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/doc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libAppCore.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libAppCore.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libUltralight.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libUltralight.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libUltralightCore.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libUltralightCore.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libWebCore.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libWebCore.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/linux/x64/libAppCore.so" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/linux/x64/libAppCore.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/linux/x64/libUltralight.so" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/linux/x64/libUltralight.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/linux/x64/libUltralightCore.so" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/linux/x64/libUltralightCore.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/linux/x64/libWebCore.so" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/linux/x64/libWebCore.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x32/AppCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x32/Ultralight.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x32/UltralightCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x32/WebCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x64/AppCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/windows/x64/AppCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x64/Ultralight.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/windows/x64/Ultralight.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x64/UltralightCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/windows/x64/UltralightCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x64/WebCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/windows/x64/WebCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/types.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ultralight/ultralight.go" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/ultralight.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/create-react-app/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/examples/create-react-app/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

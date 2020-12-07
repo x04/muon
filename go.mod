@@ -1,3 +1,3 @@
-module github.com/ImVexed/muon
+module github.com/x04/muon
 
 go 1.13
