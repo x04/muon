@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c034c5d0-991f-4565-ae16-1d8103f14813" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ultralight/libs/AppCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralight/libs/Ultralight.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralight/libs/UltralightCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralight/libs/WebCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/AppCore/CAPI.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/AppCore/CAPI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSContextRef.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSContextRef.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSObjectRef.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSObjectRef.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSObjectRefPrivate.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSObjectRefPrivate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSRetainPtr.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSRetainPtr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSTypedArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSTypedArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/JSValueRef.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/JSValueRef.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/JavaScriptCore/WebKitAvailability.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/JavaScriptCore/WebKitAvailability.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Ultralight/CAPI.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Ultralight/CAPI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/muon.go" beforeDir="false" afterPath="$PROJECT_DIR$/muon.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/muon_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/muon_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/cgo_helpers.c" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/cgo_helpers.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/cgo_helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/cgo_helpers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/cgo_helpers.h" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/cgo_helpers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/const.go" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/const.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libAppCore.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libAppCore.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libUltralight.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libUltralight.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libUltralightCore.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libUltralightCore.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libWebCore.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/darwin/x64/libWebCore.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/linux/x64/libAppCore.so" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/linux/x64/libAppCore.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/linux/x64/libUltralight.so" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/linux/x64/libUltralight.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/linux/x64/libUltralightCore.so" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/linux/x64/libUltralightCore.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/linux/x64/libWebCore.so" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/linux/x64/libWebCore.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x32/AppCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x32/Ultralight.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x32/UltralightCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x32/WebCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x64/AppCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/windows/x64/AppCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x64/Ultralight.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/windows/x64/Ultralight.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x64/UltralightCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/windows/x64/UltralightCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/libs/windows/x64/WebCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/libs/windows/x64/WebCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight/ultralight.go" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight/ultralight.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go/go1.15.5" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1lKLure53oDtfGPWhFoVRqbinPX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\muon" />
+      <recent name="D:\dev\muon\ultralight\libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\muon\ultralight\libs\windows\x64" />
+      <recent name="D:\dev\muon\ultralight\libs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go test github.com/ImVexed/muon" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <module name="muon" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <envs>
+        <env name="GODEBUG" value="asyncpreemptoff=1" />
+      </envs>
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ImVexed/muon" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/ultralight/ultralight.go</url>
+          <line>81</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

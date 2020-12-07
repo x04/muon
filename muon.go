@@ -134,11 +134,12 @@ func (w *Window) Bind(name string, function interface{}) {
 
 // Eval evaluates a given JavaScript string in the given Window view. `ret` is necessary for JSON serialization if an object is returned.
 func (w *Window) Eval(js string, ret reflect.Type) (interface{}, error) {
-	us := UlCreateString(js)
-	defer UlDestroyString(us)
+	us := JSStringCreateWithUTF8CString(js)
+	defer JSStringRelease(us)
 
-	ref := UlViewEvaluateScript(w.view, us)
-	ctx := UlViewGetJSContext(w.view)
+	ctx := UlViewLockJSContext(w.view)
+	defer UlViewUnlockJSContext(w.view)
+	ref := JSEvaluateScript(ctx, us, nil, nil, 0, nil)
 
 	val, err := fromJSValue(ctx, ref, ret)
 
@@ -159,11 +160,11 @@ func (w *Window) Move(x int, y int) {
 	UlOverlayMoveTo(w.ov, int32(x), int32(y))
 }
 
-func (w *Window) ipcCallback(ctx JSContextRef, functin JSObjectRef, thisObject JSObjectRef, argumentCount uint, arguments []JSValueRef, exception []JSValueRef) JSValueRef {
+func (w *Window) ipcCallback(ctx JSContextRef, function JSObjectRef, thisObject JSObjectRef, argumentCount uint64, arguments []JSValueRef, exception []JSValueRef) JSValueRef {
 	jsName := JSStringCreateWithUTF8CString("name")
 	defer JSStringRelease(jsName)
 
-	prop := JSObjectGetProperty(ctx, functin, jsName, nil)
+	prop := JSObjectGetProperty(ctx, function, jsName, nil)
 	jsProp := JSValueToStringCopy(ctx, prop, nil)
 	defer JSStringRelease(jsProp)
 
@@ -177,7 +178,7 @@ func (w *Window) ipcCallback(ctx JSContextRef, functin JSObjectRef, thisObject J
 
 	params := make([]reflect.Value, argumentCount)
 
-	for i := uint(0); i < argumentCount; i++ {
+	for i := uint64(0); i < argumentCount; i++ {
 		val, err := fromJSValue(ctx, arguments[i], f.ParamTypes[i])
 
 		if err != nil {
@@ -273,7 +274,6 @@ func fromJSString(str JSStringRef) string {
 
 func toJSValue(ctx JSContextRef, value reflect.Value) JSValueRef {
 	var jsv JSValueRef
-	var err error
 
 	switch value.Kind() {
 	case reflect.Float64:
@@ -298,21 +298,18 @@ func toJSValue(ctx JSContextRef, value reflect.Value) JSValueRef {
 		for i := 0; i < value.Len(); i++ {
 			rets[i] = toJSValue(ctx, value.Index(i))
 		}
-		arr := JSObjectMakeArray(ctx, uint(len(rets)), rets, nil)
+		arr := JSObjectMakeArray(ctx, uint64(uint(len(rets))), rets, nil)
 		jsv = *(*JSValueRef)(unsafe.Pointer(&arr))
 	default:
 		panic("Not implemented!")
-	}
-
-	if err != nil {
-		return JSValueMakeNull(ctx)
 	}
 
 	return jsv
 }
 
 func (w *Window) addFunction(name string) {
-	ctx := UlViewGetJSContext(w.view)
+	ctx := UlViewLockJSContext(w.view)
+	defer UlViewUnlockJSContext(w.view)
 	gobj := JSContextGetGlobalObject(ctx)
 
 	fn := JSStringCreateWithUTF8CString(name)
