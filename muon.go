@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	. "github.com/ImVexed/muon/ultralight"
+	. "github.com/x04/muon/ultralight"
 )
 
 // Window represents a single Ultralight instance
